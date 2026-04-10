@@ -1,0 +1,1053 @@
+fileFormatVersion: 2
+guid: b525cb1326007b943b0da2dbbfa43789
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5588645126519394660
+    second: Preview (14)RedBlack_0
+  - first:
+      213: -3207480916043564041
+    second: Preview (14)RedBlack_1
+  - first:
+      213: 7690336550724104595
+    second: Preview (14)RedBlack_2
+  - first:
+      213: 1264906881821317227
+    second: Preview (14)RedBlack_3
+  - first:
+      213: 5540196878830032659
+    second: Preview (14)RedBlack_4
+  - first:
+      213: 5717468428265789587
+    second: Preview (14)RedBlack_5
+  - first:
+      213: -3367932407641010686
+    second: Preview (14)RedBlack_6
+  - first:
+      213: -2880510900235946036
+    second: Preview (14)RedBlack_7
+  - first:
+      213: -8389010647452614907
+    second: Preview (14)RedBlack_8
+  - first:
+      213: 3587773280918771106
+    second: Preview (14)RedBlack_9
+  - first:
+      213: 8234136201527742780
+    second: Preview (14)RedBlack_10
+  - first:
+      213: 8683606663419499885
+    second: Preview (14)RedBlack_11
+  - first:
+      213: 4173986801800132910
+    second: Preview (14)RedBlack_12
+  - first:
+      213: 3041393827257811648
+    second: Preview (14)RedBlack_13
+  - first:
+      213: 4151707967808760215
+    second: Preview (14)RedBlack_14
+  - first:
+      213: -4931237915060279013
+    second: Preview (14)RedBlack_15
+  - first:
+      213: -9092179974029327320
+    second: Preview (14)RedBlack_16
+  - first:
+      213: -8230355400187965350
+    second: Preview (14)RedBlack_17
+  - first:
+      213: -3864912396619849714
+    second: Preview (14)RedBlack_18
+  - first:
+      213: 8701039482161214853
+    second: Preview (14)RedBlack_19
+  - first:
+      213: 6978800292563707851
+    second: Preview (14)RedBlack_20
+  - first:
+      213: -341199251529570287
+    second: Preview (14)RedBlack_21
+  - first:
+      213: -5085411157596724153
+    second: Preview (14)RedBlack_22
+  - first:
+      213: 785373015789047619
+    second: Preview (14)RedBlack_23
+  - first:
+      213: 2781578664776027055
+    second: Preview (14)RedBlack_24
+  - first:
+      213: -3551532204881197952
+    second: Preview (14)RedBlack_25
+  - first:
+      213: -7749918221089965725
+    second: Preview (14)RedBlack_26
+  - first:
+      213: -2876683496626121210
+    second: Preview (14)RedBlack_27
+  - first:
+      213: -7238127349890897505
+    second: Preview (14)RedBlack_28
+  - first:
+      213: 2738645870548327391
+    second: Preview (14)RedBlack_29
+  - first:
+      213: 2375052888582281635
+    second: Preview (14)RedBlack_30
+  - first:
+      213: 6360361177923745714
+    second: Preview (14)RedBlack_31
+  - first:
+      213: -99346748551248332
+    second: Preview (14)RedBlack_32
+  - first:
+      213: -1175202274803509654
+    second: Preview (14)RedBlack_33
+  - first:
+      213: -976584757803139386
+    second: Preview (14)RedBlack_34
+  - first:
+      213: 916417054869810701
+    second: Preview (14)RedBlack_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Preview (14)RedBlack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 334
+        width: 60
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46118e5f12bde8d40800000000000000
+      internalID: 5588645126519394660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Preview (14)RedBlack_1
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 334
+        width: 61
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fbf06fc91dbc73d0800000000000000
+      internalID: -3207480916043564041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Preview (14)RedBlack_2
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 334
+        width: 61
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 391fc15095099ba60800000000000000
+      internalID: 7690336550724104595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Preview (14)RedBlack_3
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 334
+        width: 61
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6818e47b1add8110800000000000000
+      internalID: 1264906881821317227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Preview (14)RedBlack_4
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 334
+        width: 61
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 317546445bbb2ec40800000000000000
+      internalID: 5540196878830032659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Preview (14)RedBlack_5
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 334
+        width: 60
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3981b493e37885f40800000000000000
+      internalID: 5717468428265789587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Preview (14)RedBlack_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 267
+        width: 60
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20e080fb153b241d0800000000000000
+      internalID: -3367932407641010686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Preview (14)RedBlack_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 201
+        width: 60
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc7bbcb099e5608d0800000000000000
+      internalID: -2880510900235946036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Preview (14)RedBlack_8
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 267
+        width: 61
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50ffd95534f349b80800000000000000
+      internalID: -8389010647452614907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Preview (14)RedBlack_9
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 201
+        width: 61
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a51dc74ac45ac130800000000000000
+      internalID: 3587773280918771106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Preview (14)RedBlack_10
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 267
+        width: 61
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c31de3cbf37854270800000000000000
+      internalID: 8234136201527742780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Preview (14)RedBlack_11
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 201
+        width: 61
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d65955ea04e528870800000000000000
+      internalID: 8683606663419499885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Preview (14)RedBlack_12
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 267
+        width: 61
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e29377aa1eafce930800000000000000
+      internalID: 4173986801800132910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Preview (14)RedBlack_13
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 201
+        width: 61
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c284c76293353a20800000000000000
+      internalID: 3041393827257811648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Preview (14)RedBlack_14
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 267
+        width: 61
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79966686664dd9930800000000000000
+      internalID: 4151707967808760215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Preview (14)RedBlack_15
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 201
+        width: 61
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b19e4e93e39b09bb0800000000000000
+      internalID: -4931237915060279013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Preview (14)RedBlack_16
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 267
+        width: 60
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 824cf0e6c7612d180800000000000000
+      internalID: -9092179974029327320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Preview (14)RedBlack_17
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 201
+        width: 60
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a50149cae57e7cd80800000000000000
+      internalID: -8230355400187965350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Preview (14)RedBlack_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 134
+        width: 60
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e00687707a21d5ac0800000000000000
+      internalID: -3864912396619849714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Preview (14)RedBlack_19
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 134
+        width: 61
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5853ed61f4d40c870800000000000000
+      internalID: 8701039482161214853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Preview (14)RedBlack_20
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 134
+        width: 61
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc7e6ac04eda9d060800000000000000
+      internalID: 6978800292563707851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Preview (14)RedBlack_21
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 133
+        width: 61
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11863f6a611d34bf0800000000000000
+      internalID: -341199251529570287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Preview (14)RedBlack_22
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 134
+        width: 61
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 744a3aeee7dfc69b0800000000000000
+      internalID: -5085411157596724153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Preview (14)RedBlack_23
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 134
+        width: 60
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34f8846c89436ea00800000000000000
+      internalID: 785373015789047619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Preview (14)RedBlack_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 66
+        width: 60
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fabc7c4ee072a9620800000000000000
+      internalID: 2781578664776027055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Preview (14)RedBlack_25
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 66
+        width: 61
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08442b7c64c66bec0800000000000000
+      internalID: -3551532204881197952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Preview (14)RedBlack_26
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 67
+        width: 61
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 369fa915072c27490800000000000000
+      internalID: -7749918221089965725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Preview (14)RedBlack_27
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 67
+        width: 61
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6061f54e997f318d0800000000000000
+      internalID: -2876683496626121210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Preview (14)RedBlack_28
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 67
+        width: 61
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f99a6b646810d8b90800000000000000
+      internalID: -7238127349890897505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Preview (14)RedBlack_29
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 67
+        width: 60
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdb9f97c8ef910620800000000000000
+      internalID: 2738645870548327391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Preview (14)RedBlack_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 60
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a956b2c402e5f020800000000000000
+      internalID: 2375052888582281635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Preview (14)RedBlack_31
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 0
+        width: 61
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b7745deaca844850800000000000000
+      internalID: 6360361177923745714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Preview (14)RedBlack_32
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 0
+        width: 61
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 436430798ac0f9ef0800000000000000
+      internalID: -99346748551248332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Preview (14)RedBlack_33
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 0
+        width: 61
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a661b1fe1c7d0bfe0800000000000000
+      internalID: -1175202274803509654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Preview (14)RedBlack_34
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 0
+        width: 61
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ce351246597272f0800000000000000
+      internalID: -976584757803139386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Preview (14)RedBlack_35
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 0
+        width: 60
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0eef9db474c7bc00800000000000000
+      internalID: 916417054869810701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Preview (14)RedBlack_0: 5588645126519394660
+      Preview (14)RedBlack_1: -3207480916043564041
+      Preview (14)RedBlack_10: 8234136201527742780
+      Preview (14)RedBlack_11: 8683606663419499885
+      Preview (14)RedBlack_12: 4173986801800132910
+      Preview (14)RedBlack_13: 3041393827257811648
+      Preview (14)RedBlack_14: 4151707967808760215
+      Preview (14)RedBlack_15: -4931237915060279013
+      Preview (14)RedBlack_16: -9092179974029327320
+      Preview (14)RedBlack_17: -8230355400187965350
+      Preview (14)RedBlack_18: -3864912396619849714
+      Preview (14)RedBlack_19: 8701039482161214853
+      Preview (14)RedBlack_2: 7690336550724104595
+      Preview (14)RedBlack_20: 6978800292563707851
+      Preview (14)RedBlack_21: -341199251529570287
+      Preview (14)RedBlack_22: -5085411157596724153
+      Preview (14)RedBlack_23: 785373015789047619
+      Preview (14)RedBlack_24: 2781578664776027055
+      Preview (14)RedBlack_25: -3551532204881197952
+      Preview (14)RedBlack_26: -7749918221089965725
+      Preview (14)RedBlack_27: -2876683496626121210
+      Preview (14)RedBlack_28: -7238127349890897505
+      Preview (14)RedBlack_29: 2738645870548327391
+      Preview (14)RedBlack_3: 1264906881821317227
+      Preview (14)RedBlack_30: 2375052888582281635
+      Preview (14)RedBlack_31: 6360361177923745714
+      Preview (14)RedBlack_32: -99346748551248332
+      Preview (14)RedBlack_33: -1175202274803509654
+      Preview (14)RedBlack_34: -976584757803139386
+      Preview (14)RedBlack_35: 916417054869810701
+      Preview (14)RedBlack_4: 5540196878830032659
+      Preview (14)RedBlack_5: 5717468428265789587
+      Preview (14)RedBlack_6: -3367932407641010686
+      Preview (14)RedBlack_7: -2880510900235946036
+      Preview (14)RedBlack_8: -8389010647452614907
+      Preview (14)RedBlack_9: 3587773280918771106
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
