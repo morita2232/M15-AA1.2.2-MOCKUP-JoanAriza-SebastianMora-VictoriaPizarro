@@ -314,6 +314,8 @@ MonoBehaviour:
   image: {fileID: 1113284163}
   nameDisplay: {fileID: 1718551107}
   priceDisplay: {fileID: 221212621}
+  needPokeBolas: 0
+  isSkin: 0
 --- !u!114 &44853624
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -622,6 +624,8 @@ MonoBehaviour:
   image: {fileID: 861127530}
   nameDisplay: {fileID: 398120715}
   priceDisplay: {fileID: 227292176}
+  needPokeBolas: 0
+  isSkin: 0
 --- !u!114 &121731810
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1066,6 +1070,8 @@ MonoBehaviour:
   image: {fileID: 2038420400}
   nameDisplay: {fileID: 2001959136}
   priceDisplay: {fileID: 1182350753}
+  needPokeBolas: 0
+  isSkin: 0
 --- !u!114 &194419707
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1163,6 +1169,8 @@ MonoBehaviour:
   image: {fileID: 715432414}
   nameDisplay: {fileID: 128403866}
   priceDisplay: {fileID: 1181011140}
+  needPokeBolas: 0
+  isSkin: 0
 --- !u!114 &196893748
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1788,6 +1796,8 @@ MonoBehaviour:
   image: {fileID: 1703223755}
   nameDisplay: {fileID: 1622514030}
   priceDisplay: {fileID: 1587030212}
+  needPokeBolas: 0
+  isSkin: 0
 --- !u!114 &235482811
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2293,6 +2303,8 @@ MonoBehaviour:
   image: {fileID: 446531129}
   nameDisplay: {fileID: 1926859094}
   priceDisplay: {fileID: 1815798682}
+  needPokeBolas: 0
+  isSkin: 0
 --- !u!114 &333423038
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4070,6 +4082,8 @@ MonoBehaviour:
   image: {fileID: 1674786554}
   nameDisplay: {fileID: 1367766534}
   priceDisplay: {fileID: 1922533156}
+  needPokeBolas: 0
+  isSkin: 0
 --- !u!114 &583023021
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4787,6 +4801,141 @@ MonoBehaviour:
   image: {fileID: 2085575665}
   nameDisplay: {fileID: 524722895}
   priceDisplay: {fileID: 855569398}
+  needPokeBolas: 0
+  isSkin: 0
+--- !u!1 &787483769
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 787483770}
+  - component: {fileID: 787483772}
+  - component: {fileID: 787483771}
+  - component: {fileID: 787483773}
+  m_Layer: 5
+  m_Name: Currency (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &787483770
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 787483769}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 975224445}
+  m_Father: {fileID: 1799455836}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: -431.76, y: -411}
+  m_SizeDelta: {x: 330.5256, y: 100}
+  m_Pivot: {x: 0, y: 1}
+--- !u!114 &787483771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 787483769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 384f58e57018afe4ea795928e7058990, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &787483772
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 787483769}
+  m_CullTransparentMesh: 1
+--- !u!114 &787483773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 787483769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 787483771}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 926258062}
+        m_TargetAssemblyTypeName: UnityAds, Assembly-CSharp
+        m_MethodName: ShowAd
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &803593308
 GameObject:
   m_ObjectHideFlags: 0
@@ -4924,6 +5073,8 @@ MonoBehaviour:
   image: {fileID: 68789981}
   nameDisplay: {fileID: 1496123082}
   priceDisplay: {fileID: 1694197832}
+  needPokeBolas: 0
+  isSkin: 0
 --- !u!114 &806978571
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5021,6 +5172,8 @@ MonoBehaviour:
   image: {fileID: 1907190625}
   nameDisplay: {fileID: 1753742815}
   priceDisplay: {fileID: 411345467}
+  needPokeBolas: 0
+  isSkin: 0
 --- !u!114 &849406049
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5418,6 +5571,8 @@ GameObject:
   - component: {fileID: 865573476}
   - component: {fileID: 865573475}
   - component: {fileID: 865573474}
+  - component: {fileID: 865573478}
+  - component: {fileID: 865573477}
   m_Layer: 5
   m_Name: Image (2)
   m_TagString: Untagged
@@ -5465,6 +5620,8 @@ MonoBehaviour:
   image: {fileID: 1953292472}
   nameDisplay: {fileID: 643642361}
   priceDisplay: {fileID: 1764447913}
+  needPokeBolas: 1
+  isSkin: 0
 --- !u!114 &865573475
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5503,6 +5660,77 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 865573472}
   m_CullTransparentMesh: 1
+--- !u!114 &865573477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 865573472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 865573475}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 865573478}
+        m_TargetAssemblyTypeName: Comprar, Assembly-CSharp
+        m_MethodName: ComprarCosa
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &865573478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 865573472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb291a5d714d7b042a58a1acf970b5b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 865573474}
+  button: {fileID: 865573477}
+  image: {fileID: 865573475}
 --- !u!1 &891434290
 GameObject:
   m_ObjectHideFlags: 0
@@ -5651,6 +5879,8 @@ GameObject:
   - component: {fileID: 926258059}
   - component: {fileID: 926258058}
   - component: {fileID: 926258057}
+  - component: {fileID: 926258061}
+  - component: {fileID: 926258062}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -5687,12 +5917,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -5742,6 +5972,37 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &926258061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 926258056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c591c23a3f1ba748a1746145853ffd1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textPokeBola: {fileID: 596330028}
+  textPokeMaster: {fileID: 2095029114}
+  pokeBolas: 500
+  pokeMasters: 5
+--- !u!114 &926258062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 926258056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30be24b6904d8cf4bafbc2255e774152, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameId: TU_GAME_ID
+  adUnitId: Rewarded_Android
+  testMode: 1
 --- !u!1 &930586876
 GameObject:
   m_ObjectHideFlags: 0
@@ -5817,6 +6078,142 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 930586876}
+  m_CullTransparentMesh: 1
+--- !u!1 &975224444
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 975224445}
+  - component: {fileID: 975224447}
+  - component: {fileID: 975224446}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &975224445
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 975224444}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 787483770}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -4.4500036}
+  m_SizeDelta: {x: 0, y: -8.899992}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &975224446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 975224444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Ads
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 6e0e210594522834d9df9fa80fcd76be, type: 2}
+  m_sharedMaterial: {fileID: 6982609654825766944, guid: 6e0e210594522834d9df9fa80fcd76be, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278194337
+  m_fontColor: {r: 0.6313726, g: 0.0627451, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 48.7
+  m_fontSizeBase: 48.7
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &975224447
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 975224444}
   m_CullTransparentMesh: 1
 --- !u!1 &989148740
 GameObject:
@@ -6222,7 +6619,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 40.8}
+  m_AnchoredPosition: {x: 0, y: 40.80005}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1013475123
@@ -7454,6 +7851,8 @@ MonoBehaviour:
   image: {fileID: 2051563972}
   nameDisplay: {fileID: 994670429}
   priceDisplay: {fileID: 410920918}
+  needPokeBolas: 0
+  isSkin: 0
 --- !u!114 &1213351401
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8110,6 +8509,8 @@ MonoBehaviour:
   image: {fileID: 217308041}
   nameDisplay: {fileID: 1871746938}
   priceDisplay: {fileID: 57252421}
+  needPokeBolas: 0
+  isSkin: 0
 --- !u!114 &1348900908
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8523,6 +8924,8 @@ GameObject:
   - component: {fileID: 1392955227}
   - component: {fileID: 1392955226}
   - component: {fileID: 1392955225}
+  - component: {fileID: 1392955229}
+  - component: {fileID: 1392955228}
   m_Layer: 5
   m_Name: Image (1)
   m_TagString: Untagged
@@ -8570,6 +8973,8 @@ MonoBehaviour:
   image: {fileID: 544060918}
   nameDisplay: {fileID: 1548556838}
   priceDisplay: {fileID: 322978098}
+  needPokeBolas: 1
+  isSkin: 0
 --- !u!114 &1392955226
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8608,6 +9013,77 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1392955223}
   m_CullTransparentMesh: 1
+--- !u!114 &1392955228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392955223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb291a5d714d7b042a58a1acf970b5b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 1392955225}
+  button: {fileID: 1392955229}
+  image: {fileID: 1392955226}
+--- !u!114 &1392955229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392955223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1392955226}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1392955228}
+        m_TargetAssemblyTypeName: Comprar, Assembly-CSharp
+        m_MethodName: ComprarCosa
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1443249983
 GameObject:
   m_ObjectHideFlags: 0
@@ -8667,6 +9143,8 @@ MonoBehaviour:
   image: {fileID: 1120853467}
   nameDisplay: {fileID: 297643872}
   priceDisplay: {fileID: 1569661820}
+  needPokeBolas: 0
+  isSkin: 0
 --- !u!114 &1443249986
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8764,6 +9242,8 @@ MonoBehaviour:
   image: {fileID: 1490989054}
   nameDisplay: {fileID: 1953165273}
   priceDisplay: {fileID: 381590868}
+  needPokeBolas: 0
+  isSkin: 0
 --- !u!114 &1464108444
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9675,6 +10155,8 @@ GameObject:
   - component: {fileID: 1591751265}
   - component: {fileID: 1591751264}
   - component: {fileID: 1591751263}
+  - component: {fileID: 1591751266}
+  - component: {fileID: 1591751267}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -9722,6 +10204,8 @@ MonoBehaviour:
   image: {fileID: 512299736}
   nameDisplay: {fileID: 1006185988}
   priceDisplay: {fileID: 257006072}
+  needPokeBolas: 1
+  isSkin: 0
 --- !u!114 &1591751264
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9760,6 +10244,77 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1591751261}
   m_CullTransparentMesh: 1
+--- !u!114 &1591751266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1591751261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1591751264}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1591751267}
+        m_TargetAssemblyTypeName: Comprar, Assembly-CSharp
+        m_MethodName: ComprarCosa
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1591751267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1591751261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb291a5d714d7b042a58a1acf970b5b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 1591751263}
+  button: {fileID: 1591751266}
+  image: {fileID: 1591751264}
 --- !u!1 &1622514028
 GameObject:
   m_ObjectHideFlags: 0
@@ -10166,6 +10721,8 @@ MonoBehaviour:
   image: {fileID: 460354506}
   nameDisplay: {fileID: 176484918}
   priceDisplay: {fileID: 37329116}
+  needPokeBolas: 0
+  isSkin: 0
 --- !u!114 &1689885318
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11128,6 +11685,7 @@ RectTransform:
   - {fileID: 1052116620}
   - {fileID: 215966106}
   - {fileID: 1231864441}
+  - {fileID: 787483770}
   - {fileID: 1872096910}
   - {fileID: 803593309}
   - {fileID: 673566958}
@@ -12492,6 +13050,8 @@ MonoBehaviour:
   image: {fileID: 676174536}
   nameDisplay: {fileID: 1113267946}
   priceDisplay: {fileID: 367358110}
+  needPokeBolas: 0
+  isSkin: 0
 --- !u!114 &1997335784
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12678,6 +13238,8 @@ GameObject:
   - component: {fileID: 2019141980}
   - component: {fileID: 2019141979}
   - component: {fileID: 2019141978}
+  - component: {fileID: 2019141982}
+  - component: {fileID: 2019141981}
   m_Layer: 5
   m_Name: Skin
   m_TagString: Untagged
@@ -12725,6 +13287,8 @@ MonoBehaviour:
   image: {fileID: 164892082}
   nameDisplay: {fileID: 2096772403}
   priceDisplay: {fileID: 1242495452}
+  needPokeBolas: 0
+  isSkin: 1
 --- !u!114 &2019141979
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12763,6 +13327,77 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2019141976}
   m_CullTransparentMesh: 1
+--- !u!114 &2019141981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2019141976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 2019141979}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2019141982}
+        m_TargetAssemblyTypeName: Comprar, Assembly-CSharp
+        m_MethodName: ComprarCosa
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &2019141982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2019141976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb291a5d714d7b042a58a1acf970b5b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 2019141978}
+  button: {fileID: 2019141981}
+  image: {fileID: 2019141979}
 --- !u!1 &2021010115
 GameObject:
   m_ObjectHideFlags: 0
@@ -12775,6 +13410,8 @@ GameObject:
   - component: {fileID: 2021010118}
   - component: {fileID: 2021010117}
   - component: {fileID: 2021010119}
+  - component: {fileID: 2021010121}
+  - component: {fileID: 2021010120}
   m_Layer: 5
   m_Name: Cosmetico
   m_TagString: Untagged
@@ -12860,6 +13497,79 @@ MonoBehaviour:
   image: {fileID: 1363772016}
   nameDisplay: {fileID: 1095402160}
   priceDisplay: {fileID: 1823760822}
+  needPokeBolas: 0
+  isSkin: 0
+--- !u!114 &2021010120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2021010115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb291a5d714d7b042a58a1acf970b5b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 2021010119}
+  button: {fileID: 2021010121}
+  image: {fileID: 2021010117}
+--- !u!114 &2021010121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2021010115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 2021010117}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2021010120}
+        m_TargetAssemblyTypeName: Comprar, Assembly-CSharp
+        m_MethodName: ComprarCosa
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2038420398
 GameObject:
   m_ObjectHideFlags: 0

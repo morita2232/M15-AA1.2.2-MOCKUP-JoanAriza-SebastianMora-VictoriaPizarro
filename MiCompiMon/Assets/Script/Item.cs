@@ -15,6 +15,8 @@ public class Item : MonoBehaviour
     public TextMeshProUGUI nameDisplay;
     public TextMeshProUGUI priceDisplay;
 
+    public bool needPokeBolas;
+    public bool isSkin;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
