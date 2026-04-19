@@ -39,8 +39,7 @@ public class Trucos : MonoBehaviour
         //Añade PokeBolas
         if (inputActions.Player.Jump.WasPressedThisFrame())
         {
-            pokeBolas += 1000;
-            textPokeBola.text = pokeBolas.ToString();
+            SumarPokeBolas(1000);
         }
         //Añade PokeMasters
         if (inputActions.Player.Sprint.WasPressedThisFrame())
@@ -69,5 +68,11 @@ public class Trucos : MonoBehaviour
     {
         pokeMasters -=cantidad;
         textPokeMaster.text = pokeMasters.ToString();
+    }
+
+    public void SumarPokeBolas(float cantidad)
+    {
+        pokeBolas += cantidad;
+        textPokeBola.text = pokeBolas.ToString();
     }
 }
