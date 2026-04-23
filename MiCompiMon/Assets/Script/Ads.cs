@@ -1,30 +1,30 @@
 using UnityEngine;
 using UnityEngine.UI;
+
 public class Ads : MonoBehaviour
 {
     public GameObject anuncio;
     public Button closeAd;
     public Image button;
+    public Slider slider;
+
     bool anuncioPlaying;
     float time = 10f;
     float duracionAnuncio;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
     void Update()
     {
         if (anuncioPlaying)
         {
             time -= Time.deltaTime;
-            if(time <= 0)
+            slider.value = time;
+
+            if (time <= 0)
             {
                 closeAd.interactable = true;
                 button.color = Color.white;
                 anuncioPlaying = false;
+                slider.value = 0;
             }
         }
     }
@@ -33,11 +33,16 @@ public class Ads : MonoBehaviour
     {
         anuncioPlaying = true;
         anuncio.SetActive(true);
+
         closeAd.interactable = false;
         button.color = Color.gray;
+
         int numeroAleatorio = Random.Range(10, 20);
         duracionAnuncio = numeroAleatorio;
         time = duracionAnuncio;
+
+        slider.maxValue = duracionAnuncio;
+        slider.value = duracionAnuncio;
     }
 
     public void CerrarAnuncio()

@@ -1,23 +1,24 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using TMPro;
-using UnityEngine.UI;
+using System.Collections.Generic;
+
 public class Trucos : MonoBehaviour
 {
     public static Trucos Instance;
     public InputSystem_Actions inputActions;
 
-    public TextMeshProUGUI textPokeBola;
-    public TextMeshProUGUI textPokeMaster;
+    public List<TextMeshProUGUI> textPokeBola;
+    public List<TextMeshProUGUI> textPokeMaster;
 
     public float pokeBolas;
     public float pokeMasters;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
     void Awake()
     {
         if (Instance != null && Instance != this)
         {
-            Destroy(this.gameObject); // Destruir duplicado
+            Destroy(this.gameObject);
             return;
         }
 
@@ -29,30 +30,28 @@ public class Trucos : MonoBehaviour
         inputActions = new InputSystem_Actions();
         inputActions.Player.Enable();
 
-        textPokeBola.text = pokeBolas.ToString();
-        textPokeMaster.text = pokeMasters.ToString();
+        UpdatePokeBolasUI();
+        UpdatePokeMastersUI();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        //Añade PokeBolas
         if (inputActions.Player.Jump.WasPressedThisFrame())
         {
             SumarPokeBolas(1000);
         }
-        //Añade PokeMasters
+
         if (inputActions.Player.Sprint.WasPressedThisFrame())
         {
             pokeMasters += 100;
-            textPokeMaster.text = pokeMasters.ToString();
+            UpdatePokeMastersUI();
         }
-        //Quita Pokebolas
+
         if (inputActions.Player.Crouch.WasPressedThisFrame())
         {
             RestarPokeBolas(1000);
         }
-        //Quita PokeMasters
+
         if (inputActions.Player.Interact.WasPressedThisFrame())
         {
             RestarPokeMasters(100);
@@ -61,18 +60,35 @@ public class Trucos : MonoBehaviour
 
     public void RestarPokeBolas(float cantidad)
     {
-        pokeBolas -=cantidad;
-        textPokeBola.text = pokeBolas.ToString();
+        pokeBolas -= cantidad;
+        UpdatePokeBolasUI();
     }
+
     public void RestarPokeMasters(float cantidad)
     {
-        pokeMasters -=cantidad;
-        textPokeMaster.text = pokeMasters.ToString();
+        pokeMasters -= cantidad;
+        UpdatePokeMastersUI();
     }
 
     public void SumarPokeBolas(float cantidad)
     {
         pokeBolas += cantidad;
-        textPokeBola.text = pokeBolas.ToString();
+        UpdatePokeBolasUI();
+    }
+
+    void UpdatePokeBolasUI()
+    {
+        foreach (TextMeshProUGUI text in textPokeBola)
+        {
+            text.text = pokeBolas.ToString();
+        }
+    }
+
+    void UpdatePokeMastersUI()
+    {
+        foreach (TextMeshProUGUI text in textPokeMaster)
+        {
+            text.text = pokeMasters.ToString();
+        }
     }
 }
