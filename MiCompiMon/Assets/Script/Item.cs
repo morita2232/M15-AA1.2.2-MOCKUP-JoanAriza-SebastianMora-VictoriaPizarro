@@ -18,7 +18,11 @@ public class Item : MonoBehaviour
     public bool needPokeBolas;
     public bool isSkin;
 
-    
+    public bool isDinero;
+
+    public float cantidad = 1f;
+
+    public bool isOferta = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

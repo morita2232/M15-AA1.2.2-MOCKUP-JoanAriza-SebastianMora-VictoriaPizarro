@@ -22,6 +22,7 @@ public class Comprar : MonoBehaviour
             {
                 Trucos.Instance.RestarPokeBolas(item.itemValue);
                 IsSkin();
+                IsOferta();
             }
         }
         else
@@ -37,6 +38,25 @@ public class Comprar : MonoBehaviour
     void IsSkin()
     {
         if (item.isSkin)
+        {
+            button.interactable = false;
+            image.color = Color.gray;
+        }
+    }
+
+    public void ComprarPokeCosas()
+    {
+        if (item.isDinero)
+        {
+            if(Trucos.Instance.dinero >= item.itemValue)
+            {
+                Trucos.Instance.RestarDineros(item.itemValue, item.cantidad);
+            }
+        }
+    }
+    void IsOferta()
+    {
+        if (item.isOferta)
         {
             button.interactable = false;
             image.color = Color.gray;

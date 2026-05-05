@@ -8,6 +8,8 @@ public class Botones : MonoBehaviour
     public GameObject battlePassPanel;
     public GameObject cartPannel;
 
+    public GameObject shopWithMoneyPanel;
+
     public void NormalShop()
     {
 
@@ -15,6 +17,7 @@ public class Botones : MonoBehaviour
         specialShopPanel.SetActive(false);
         battlePassPanel.SetActive(false);
         cartPannel.SetActive(false);
+        shopWithMoneyPanel.SetActive(false);
 
     }
 
@@ -25,6 +28,7 @@ public class Botones : MonoBehaviour
         specialShopPanel.SetActive(true);
         battlePassPanel.SetActive(false);
         cartPannel.SetActive(false);
+        shopWithMoneyPanel.SetActive(false);
     }
 
     public void BattlePass()
@@ -33,6 +37,7 @@ public class Botones : MonoBehaviour
         specialShopPanel.SetActive(false);
         battlePassPanel.SetActive(true);
         cartPannel.SetActive(false);
+        shopWithMoneyPanel.SetActive(false);
     }
 
     public void Cart()
@@ -41,6 +46,16 @@ public class Botones : MonoBehaviour
         specialShopPanel.SetActive(false);
         battlePassPanel.SetActive(false);
         cartPannel.SetActive(true);
+        shopWithMoneyPanel.SetActive(false);
+    }
+
+    public void DineroShop()
+    {
+        normalShopPanel.SetActive(false);
+        specialShopPanel.SetActive(false);
+        battlePassPanel.SetActive(false);
+        cartPannel.SetActive(false);
+        shopWithMoneyPanel.SetActive(true);
     }
 
 }

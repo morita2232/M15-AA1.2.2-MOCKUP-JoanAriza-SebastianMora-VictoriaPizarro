@@ -14,6 +14,9 @@ public class Trucos : MonoBehaviour
     public float pokeBolas;
     public float pokeMasters;
 
+    public float dinero = 5000f;
+    bool hasPass = false;
+
     void Awake()
     {
         if (Instance != null && Instance != this)
@@ -89,6 +92,22 @@ public class Trucos : MonoBehaviour
         foreach (TextMeshProUGUI text in textPokeMaster)
         {
             text.text = pokeMasters.ToString();
+        }
+    }
+
+    public void RestarDineros(float cantidad, float conseguido)
+    {
+        dinero -= cantidad;
+        SumarPokeBolas(conseguido);
+        Debug.Log(dinero);
+    }
+
+    public void ComprarPase(float cantidad)
+    {
+        if(dinero >= cantidad && !hasPass)
+        {
+            dinero -= cantidad;
+            hasPass = true;
         }
     }
 }
