@@ -1,35 +1,36 @@
 using UnityEngine;
-using TMPro;
 using UnityEngine.UI;
+
 public class Comprar : MonoBehaviour
 {
+    public Item item;    
 
-    public Item item;
     public Button button;
 
     public Image image;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
 
     public void ComprarCosa()
     {
         if (item.needPokeBolas)
         {
-            if(Trucos.Instance.pokeBolas >= item.itemValue)
+            if (Trucos.Instance.pokeBolas >= item.itemValue)
             {
                 Trucos.Instance.RestarPokeBolas(item.itemValue);
+
+                Shop.Instance.ShowcaseItem(item);
+
                 IsSkin();
                 IsOferta();
             }
         }
         else
         {
-            if(Trucos.Instance.pokeMasters >= item.itemValue)
+            if (Trucos.Instance.pokeMasters >= item.itemValue)
             {
                 Trucos.Instance.RestarPokeMasters(item.itemValue);
+
+                Shop.Instance.ShowcaseItem(item);
+
                 IsSkin();
             }
         }
@@ -48,12 +49,23 @@ public class Comprar : MonoBehaviour
     {
         if (item.isDinero)
         {
-            if(Trucos.Instance.dinero >= item.itemValue)
+
+            if (item.givesPokeMasters)
             {
-                Trucos.Instance.RestarDineros(item.itemValue, item.cantidad);
+                Trucos.Instance.RestarPokeBolas(item.itemValue) ;
+                Trucos.Instance.SumarPokeMasters(item.cantidad);                
+            }
+            
+            if (Trucos.Instance.dinero >= item.itemValue)
+            {
+                Trucos.Instance.dinero -= item.itemValue;                
+
+                Trucos.Instance.SumarPokeBolas(item.cantidad);
+                
             }
         }
     }
+
     void IsOferta()
     {
         if (item.isOferta)

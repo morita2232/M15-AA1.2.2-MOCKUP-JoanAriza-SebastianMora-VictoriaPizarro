@@ -73,6 +73,13 @@ public class Trucos : MonoBehaviour
         UpdatePokeMastersUI();
     }
 
+
+    public void SumarPokeMasters(float cantidad)
+    {
+        pokeMasters += cantidad;
+        UpdatePokeMastersUI();
+    }
+
     public void SumarPokeBolas(float cantidad)
     {
         pokeBolas += cantidad;

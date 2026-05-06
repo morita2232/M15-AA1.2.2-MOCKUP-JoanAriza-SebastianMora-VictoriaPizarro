@@ -291,7 +291,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1600, y: -100}
+  m_AnchoredPosition: {x: 900, y: -100}
   m_SizeDelta: {x: 250, y: 100}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &25736929
@@ -918,7 +918,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -1816, y: -176}
+  m_SizeDelta: {x: -976, y: -1016}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &55140954
 MonoBehaviour:
@@ -1128,9 +1128,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 723274327}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 452.625, y: -50}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &77766879
@@ -1512,9 +1512,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 723274327}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 316.875, y: -50}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &93472079
@@ -2288,8 +2288,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000025749207, y: 0}
-  m_SizeDelta: {x: -1773, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -933, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &188347668
 MonoBehaviour:
@@ -2312,7 +2312,7 @@ MonoBehaviour:
   m_StartCorner: 0
   m_StartAxis: 0
   m_CellSize: {x: 100, y: 100}
-  m_Spacing: {x: 50, y: 50}
+  m_Spacing: {x: 200, y: 200}
   m_Constraint: 0
   m_ConstraintCount: 2
 --- !u!114 &188347669
@@ -2365,7 +2365,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 195, y: -100}
+  m_AnchoredPosition: {x: 55, y: -100}
   m_SizeDelta: {x: 250, y: 100}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &197332676
@@ -3340,13 +3340,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Huevo Epico oferta
   itemValue: 1300
-  sprite: {fileID: 21300000, guid: bc514cebc7cd03b48a7e1e57ce27c519, type: 3}
-  image: {fileID: 93717552}
+  itemSprite: {fileID: 21300000, guid: b60333cbdc00f4145a7124eb63e13f69, type: 3}
+  currencySprite: {fileID: 21300000, guid: bc514cebc7cd03b48a7e1e57ce27c519, type: 3}
+  itemImage: {fileID: 234964833}
+  currencyImage: {fileID: 93717552}
   nameDisplay: {fileID: 941767287}
   priceDisplay: {fileID: 1549201653}
+  priceObject: {fileID: 1549201651}
+  currencyObject: {fileID: 93717550}
   needPokeBolas: 1
   isSkin: 0
   isDinero: 0
+  givesPokeMasters: 0
   cantidad: 0
   isOferta: 1
 --- !u!114 &234964833
@@ -4563,7 +4568,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 270}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &370528668
 MonoBehaviour:
@@ -4864,9 +4869,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 723274327}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 181.125, y: -50}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &401666678
@@ -5139,10 +5144,10 @@ RectTransform:
   - {fileID: 1853450287}
   m_Father: {fileID: 936182405}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 119, y: -500}
+  m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &409281787
 MonoBehaviour:
@@ -5229,13 +5234,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: 18.000 PokeBolas
   itemValue: 10
-  sprite: {fileID: -7868264388238900115, guid: ef4e5a91cb156c544bdff04250afcff9, type: 3}
-  image: {fileID: 1853450288}
+  itemSprite: {fileID: 8612886808959924395, guid: c795ed572c57a6643a62924acaa3c38b, type: 3}
+  currencySprite: {fileID: -7868264388238900115, guid: ef4e5a91cb156c544bdff04250afcff9, type: 3}
+  itemImage: {fileID: 409281790}
+  currencyImage: {fileID: 1853450288}
   nameDisplay: {fileID: 570465199}
   priceDisplay: {fileID: 62052467}
+  priceObject: {fileID: 62052465}
+  currencyObject: {fileID: 1853450286}
   needPokeBolas: 0
   isSkin: 0
   isDinero: 1
+  givesPokeMasters: 0
   cantidad: 18000
   isOferta: 0
 --- !u!114 &409281790
@@ -9211,10 +9221,10 @@ RectTransform:
   - {fileID: 2085575664}
   m_Father: {fileID: 370528667}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 158, y: -0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &721537129
 MonoBehaviour:
@@ -9268,14 +9278,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Huevo
   itemValue: 435
-  sprite: {fileID: 21300000, guid: bc514cebc7cd03b48a7e1e57ce27c519, type: 3}
-  image: {fileID: 2085575665}
+  itemSprite: {fileID: 21300000, guid: 212bedb24f9688449a175c1a2a78a973, type: 3}
+  currencySprite: {fileID: 21300000, guid: bc514cebc7cd03b48a7e1e57ce27c519, type: 3}
+  itemImage: {fileID: 721537129}
+  currencyImage: {fileID: 2085575665}
   nameDisplay: {fileID: 524722895}
   priceDisplay: {fileID: 855569398}
+  priceObject: {fileID: 855569396}
+  currencyObject: {fileID: 2085575663}
   needPokeBolas: 1
   isSkin: 0
   isDinero: 0
-  cantidad: 0
+  givesPokeMasters: 0
+  cantidad: 1
   isOferta: 0
 --- !u!114 &721537132
 MonoBehaviour:
@@ -9486,8 +9501,8 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 851168042}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.042372882}
-  m_AnchorMax: {x: 1, y: 0.9576271}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -9565,7 +9580,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1600, y: -100}
+  m_AnchoredPosition: {x: 900, y: -100}
   m_SizeDelta: {x: 250, y: 100}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &728922761
@@ -9924,8 +9939,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -11023,7 +11038,7 @@ RectTransform:
   m_Father: {fileID: 221001624}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -11222,8 +11237,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1524266295}
   m_HandleRect: {fileID: 1524266294}
   m_Direction: 2
-  m_Value: 0.5
-  m_Size: 0.75454545
+  m_Value: 0
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -11578,10 +11593,10 @@ RectTransform:
   - {fileID: 179464156}
   m_Father: {fileID: 370528667}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 158, y: -400}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &905573492
 MonoBehaviour:
@@ -11668,14 +11683,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Huevo Epico
   itemValue: 1400
-  sprite: {fileID: 21300000, guid: bc514cebc7cd03b48a7e1e57ce27c519, type: 3}
-  image: {fileID: 179464157}
+  itemSprite: {fileID: 21300000, guid: b60333cbdc00f4145a7124eb63e13f69, type: 3}
+  currencySprite: {fileID: 21300000, guid: bc514cebc7cd03b48a7e1e57ce27c519, type: 3}
+  itemImage: {fileID: 905573495}
+  currencyImage: {fileID: 179464157}
   nameDisplay: {fileID: 2013367770}
   priceDisplay: {fileID: 529281900}
+  priceObject: {fileID: 529281898}
+  currencyObject: {fileID: 179464155}
   needPokeBolas: 1
   isSkin: 0
   isDinero: 0
-  cantidad: 0
+  givesPokeMasters: 0
+  cantidad: 1
   isOferta: 0
 --- !u!114 &905573495
 MonoBehaviour:
@@ -12141,6 +12161,7 @@ GameObject:
   - component: {fileID: 926258061}
   - component: {fileID: 926258062}
   - component: {fileID: 926258063}
+  - component: {fileID: 926258064}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -12293,6 +12314,20 @@ MonoBehaviour:
   battlePassPanel: {fileID: 626849216}
   cartPannel: {fileID: 1303040606}
   shopWithMoneyPanel: {fileID: 1536314730}
+--- !u!114 &926258064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 926258056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c08cdea8a00ffa348be18e0b2d85b521, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  content: {fileID: 188347667}
+  itemPrefab: {fileID: 1944796049971989667, guid: 21fb8b96cc644ff43928dcf184dda661, type: 3}
 --- !u!1 &926998717
 GameObject:
   m_ObjectHideFlags: 0
@@ -12815,7 +12850,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: -20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &936182406
 MonoBehaviour:
@@ -13094,10 +13129,10 @@ RectTransform:
   - {fileID: 289190204}
   m_Father: {fileID: 370528667}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 158, y: -800}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &969807714
 MonoBehaviour:
@@ -13184,13 +13219,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Revivir
   itemValue: 2500
-  sprite: {fileID: 21300000, guid: bc514cebc7cd03b48a7e1e57ce27c519, type: 3}
-  image: {fileID: 289190205}
+  itemSprite: {fileID: 21300000, guid: 14bb97181999455488d0db4e7988f6fe, type: 3}
+  currencySprite: {fileID: 21300000, guid: bc514cebc7cd03b48a7e1e57ce27c519, type: 3}
+  itemImage: {fileID: 969807717}
+  currencyImage: {fileID: 289190205}
   nameDisplay: {fileID: 1901932825}
   priceDisplay: {fileID: 910327543}
+  priceObject: {fileID: 910327541}
+  currencyObject: {fileID: 289190203}
   needPokeBolas: 1
   isSkin: 0
   isDinero: 0
+  givesPokeMasters: 0
   cantidad: 0
   isOferta: 0
 --- !u!114 &969807717
@@ -13269,10 +13309,10 @@ RectTransform:
   - {fileID: 1301273612}
   m_Father: {fileID: 370528667}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 158, y: -600}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &971934571
 MonoBehaviour:
@@ -13359,14 +13399,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Huevo Legendario
   itemValue: 4
-  sprite: {fileID: 21300000, guid: bc514cebc7cd03b48a7e1e57ce27c519, type: 3}
-  image: {fileID: 1301273613}
+  itemSprite: {fileID: 21300000, guid: b05ba39f5038f35418313f0d24441515, type: 3}
+  currencySprite: {fileID: 21300000, guid: c2b3f9bdafba36241af975ec7336c421, type: 3}
+  itemImage: {fileID: 971934574}
+  currencyImage: {fileID: 1301273613}
   nameDisplay: {fileID: 1884485398}
   priceDisplay: {fileID: 1755297435}
+  priceObject: {fileID: 1755297433}
+  currencyObject: {fileID: 1301273611}
   needPokeBolas: 0
   isSkin: 0
   isDinero: 0
-  cantidad: 0
+  givesPokeMasters: 0
+  cantidad: 1
   isOferta: 0
 --- !u!114 &971934574
 MonoBehaviour:
@@ -13574,9 +13619,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 723274327}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 45.375, y: -50}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &975806856
@@ -13709,7 +13754,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &989148741
 RectTransform:
   m_ObjectHideFlags: 0
@@ -14061,7 +14106,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 100}
+  m_SizeDelta: {x: 0, y: -740}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &998479304
 MonoBehaviour:
@@ -14956,10 +15001,10 @@ RectTransform:
   - {fileID: 1031276484}
   m_Father: {fileID: 936182405}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 119, y: -250}
+  m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1058317787
 MonoBehaviour:
@@ -15046,13 +15091,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: 7000 PokeBolas
   itemValue: 5
-  sprite: {fileID: -7868264388238900115, guid: ef4e5a91cb156c544bdff04250afcff9, type: 3}
-  image: {fileID: 1031276485}
+  itemSprite: {fileID: 8612886808959924395, guid: c795ed572c57a6643a62924acaa3c38b, type: 3}
+  currencySprite: {fileID: -7868264388238900115, guid: ef4e5a91cb156c544bdff04250afcff9, type: 3}
+  itemImage: {fileID: 1058317790}
+  currencyImage: {fileID: 1031276485}
   nameDisplay: {fileID: 241637890}
   priceDisplay: {fileID: 681320783}
+  priceObject: {fileID: 681320781}
+  currencyObject: {fileID: 1031276483}
   needPokeBolas: 0
   isSkin: 0
   isDinero: 1
+  givesPokeMasters: 0
   cantidad: 7000
   isOferta: 0
 --- !u!114 &1058317790
@@ -15251,8 +15301,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 723788108}
   m_HandleRect: {fileID: 723788107}
   m_Direction: 2
-  m_Value: 0.5
-  m_Size: 0.91525424
+  m_Value: 0
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -15499,10 +15549,10 @@ RectTransform:
   - {fileID: 1983747512}
   m_Father: {fileID: 936182405}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 119, y: -1000}
+  m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1085472890
 MonoBehaviour:
@@ -15589,13 +15639,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: 80.000 PokeBolas
   itemValue: 50
-  sprite: {fileID: -7868264388238900115, guid: ef4e5a91cb156c544bdff04250afcff9, type: 3}
-  image: {fileID: 1983747513}
+  itemSprite: {fileID: 8612886808959924395, guid: c795ed572c57a6643a62924acaa3c38b, type: 3}
+  currencySprite: {fileID: -7868264388238900115, guid: ef4e5a91cb156c544bdff04250afcff9, type: 3}
+  itemImage: {fileID: 1085472893}
+  currencyImage: {fileID: 1983747513}
   nameDisplay: {fileID: 756183128}
   priceDisplay: {fileID: 301635337}
+  priceObject: {fileID: 301635335}
+  currencyObject: {fileID: 1983747511}
   needPokeBolas: 0
   isSkin: 0
   isDinero: 1
+  givesPokeMasters: 0
   cantidad: 80000
   isOferta: 0
 --- !u!114 &1085472893
@@ -16478,7 +16533,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 960, y: -100}
+  m_AnchoredPosition: {x: 540, y: -100}
   m_SizeDelta: {x: 250, y: 100}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1193000380
@@ -16607,9 +16662,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1555330861}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 316.875, y: -50}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1195411234
@@ -17929,9 +17984,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1555330861}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 45.375, y: -50}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1299511021
@@ -20870,13 +20925,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Huevo legendario Oferta
   itemValue: 3
-  sprite: {fileID: 21300000, guid: c2b3f9bdafba36241af975ec7336c421, type: 3}
-  image: {fileID: 1679200708}
+  itemSprite: {fileID: 21300000, guid: b05ba39f5038f35418313f0d24441515, type: 3}
+  currencySprite: {fileID: 21300000, guid: c2b3f9bdafba36241af975ec7336c421, type: 3}
+  itemImage: {fileID: 1516557758}
+  currencyImage: {fileID: 1679200708}
   nameDisplay: {fileID: 37531161}
   priceDisplay: {fileID: 1848824445}
+  priceObject: {fileID: 1848824443}
+  currencyObject: {fileID: 1679200706}
   needPokeBolas: 0
   isSkin: 0
   isDinero: 0
+  givesPokeMasters: 0
   cantidad: 0
   isOferta: 1
 --- !u!114 &1516557758
@@ -20949,8 +21009,8 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 848222190}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.122727275}
-  m_AnchorMax: {x: 1, y: 0.8772727}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -21009,7 +21069,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1536314731
 RectTransform:
   m_ObjectHideFlags: 0
@@ -21115,10 +21175,10 @@ RectTransform:
   - {fileID: 753713578}
   m_Father: {fileID: 370528667}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 158, y: -200}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1547612735
 MonoBehaviour:
@@ -21205,14 +21265,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Huevo raro
   itemValue: 870
-  sprite: {fileID: 21300000, guid: bc514cebc7cd03b48a7e1e57ce27c519, type: 3}
-  image: {fileID: 753713579}
+  itemSprite: {fileID: 21300000, guid: fd9919633bca03548bed715f05d23897, type: 3}
+  currencySprite: {fileID: 21300000, guid: bc514cebc7cd03b48a7e1e57ce27c519, type: 3}
+  itemImage: {fileID: 1547612738}
+  currencyImage: {fileID: 753713579}
   nameDisplay: {fileID: 647928058}
   priceDisplay: {fileID: 1384489023}
+  priceObject: {fileID: 1384489021}
+  currencyObject: {fileID: 753713577}
   needPokeBolas: 1
   isSkin: 0
   isDinero: 0
-  cantidad: 0
+  givesPokeMasters: 0
+  cantidad: 1
   isOferta: 0
 --- !u!114 &1547612738
 MonoBehaviour:
@@ -22087,10 +22152,10 @@ RectTransform:
   - {fileID: 976600010}
   m_Father: {fileID: 936182405}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 119, y: -1250}
+  m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1640075703
 MonoBehaviour:
@@ -22177,13 +22242,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: 175.000 PokeBolas
   itemValue: 100
-  sprite: {fileID: -7868264388238900115, guid: ef4e5a91cb156c544bdff04250afcff9, type: 3}
-  image: {fileID: 976600011}
+  itemSprite: {fileID: 8612886808959924395, guid: c795ed572c57a6643a62924acaa3c38b, type: 3}
+  currencySprite: {fileID: -7868264388238900115, guid: ef4e5a91cb156c544bdff04250afcff9, type: 3}
+  itemImage: {fileID: 1640075706}
+  currencyImage: {fileID: 976600011}
   nameDisplay: {fileID: 1251920225}
   priceDisplay: {fileID: 1946313805}
+  priceObject: {fileID: 1946313803}
+  currencyObject: {fileID: 976600009}
   needPokeBolas: 0
   isSkin: 0
   isDinero: 1
+  givesPokeMasters: 0
   cantidad: 175000
   isOferta: 0
 --- !u!114 &1640075706
@@ -22548,10 +22618,10 @@ RectTransform:
   - {fileID: 1087540528}
   m_Father: {fileID: 936182405}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 119, y: 0}
+  m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1663193148
 MonoBehaviour:
@@ -22638,13 +22708,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: 1500 PokeBolas
   itemValue: 1
-  sprite: {fileID: -7868264388238900115, guid: ef4e5a91cb156c544bdff04250afcff9, type: 3}
-  image: {fileID: 1087540529}
+  itemSprite: {fileID: 8612886808959924395, guid: c795ed572c57a6643a62924acaa3c38b, type: 3}
+  currencySprite: {fileID: -7868264388238900115, guid: ef4e5a91cb156c544bdff04250afcff9, type: 3}
+  itemImage: {fileID: 1663193151}
+  currencyImage: {fileID: 1087540529}
   nameDisplay: {fileID: 533152927}
   priceDisplay: {fileID: 1312556442}
+  priceObject: {fileID: 1312556440}
+  currencyObject: {fileID: 1087540527}
   needPokeBolas: 0
   isSkin: 0
   isDinero: 1
+  givesPokeMasters: 0
   cantidad: 1500
   isOferta: 0
 --- !u!114 &1663193151
@@ -23809,13 +23884,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Huevo Raro oferta
   itemValue: 650
-  sprite: {fileID: 21300000, guid: bc514cebc7cd03b48a7e1e57ce27c519, type: 3}
-  image: {fileID: 179095480}
+  itemSprite: {fileID: 21300000, guid: b05ba39f5038f35418313f0d24441515, type: 3}
+  currencySprite: {fileID: 21300000, guid: bc514cebc7cd03b48a7e1e57ce27c519, type: 3}
+  itemImage: {fileID: 1768685511}
+  currencyImage: {fileID: 179095480}
   nameDisplay: {fileID: 366885343}
   priceDisplay: {fileID: 1920298388}
+  priceObject: {fileID: 1920298386}
+  currencyObject: {fileID: 179095478}
   needPokeBolas: 1
   isSkin: 0
   isDinero: 0
+  givesPokeMasters: 0
   cantidad: 0
   isOferta: 1
 --- !u!114 &1768685511
@@ -23984,10 +24064,10 @@ RectTransform:
   - {fileID: 1830278452}
   m_Father: {fileID: 936182405}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 119, y: -1500}
+  m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1775785358
 MonoBehaviour:
@@ -24074,13 +24154,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: 1500 PokeBolas
   itemValue: 1
-  sprite: {fileID: -7868264388238900115, guid: ef4e5a91cb156c544bdff04250afcff9, type: 3}
-  image: {fileID: 1830278453}
+  itemSprite: {fileID: 8612886808959924395, guid: c795ed572c57a6643a62924acaa3c38b, type: 3}
+  currencySprite: {fileID: -7868264388238900115, guid: ef4e5a91cb156c544bdff04250afcff9, type: 3}
+  itemImage: {fileID: 1775785361}
+  currencyImage: {fileID: 1830278453}
   nameDisplay: {fileID: 1332623751}
   priceDisplay: {fileID: 1588730231}
+  priceObject: {fileID: 1588730229}
+  currencyObject: {fileID: 1830278451}
   needPokeBolas: 0
   isSkin: 0
   isDinero: 1
+  givesPokeMasters: 0
   cantidad: 1500
   isOferta: 0
 --- !u!114 &1775785361
@@ -24157,7 +24242,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 960, y: -100}
+  m_AnchoredPosition: {x: 540, y: -100}
   m_SizeDelta: {x: 250, y: 100}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1781602623
@@ -24426,9 +24511,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1555330861}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 181.125, y: -50}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1798604077
@@ -26867,9 +26952,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1555330861}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 452.625, y: -50}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1939626418
@@ -27835,10 +27920,10 @@ RectTransform:
   - {fileID: 1784702579}
   m_Father: {fileID: 370528667}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 158, y: -1000}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &2013666241
 MonoBehaviour:
@@ -27901,7 +27986,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2013666241}
         m_TargetAssemblyTypeName: Comprar, Assembly-CSharp
-        m_MethodName: ComprarCosa
+        m_MethodName: ComprarPokeCosas
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -27925,14 +28010,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: PokeBola Master
   itemValue: 5000
-  sprite: {fileID: 21300000, guid: bc514cebc7cd03b48a7e1e57ce27c519, type: 3}
-  image: {fileID: 1784702580}
+  itemSprite: {fileID: 21300000, guid: c2b3f9bdafba36241af975ec7336c421, type: 3}
+  currencySprite: {fileID: 21300000, guid: bc514cebc7cd03b48a7e1e57ce27c519, type: 3}
+  itemImage: {fileID: 2013666244}
+  currencyImage: {fileID: 1784702580}
   nameDisplay: {fileID: 1301371181}
   priceDisplay: {fileID: 1346305279}
-  needPokeBolas: 1
+  priceObject: {fileID: 1346305277}
+  currencyObject: {fileID: 1784702578}
+  needPokeBolas: 0
   isSkin: 0
-  isDinero: 0
-  cantidad: 0
+  isDinero: 1
+  givesPokeMasters: 1
+  cantidad: 10
   isOferta: 0
 --- !u!114 &2013666244
 MonoBehaviour:
@@ -28099,13 +28189,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Cute Pikachu Skin
   itemValue: 15
-  sprite: {fileID: 21300000, guid: c2b3f9bdafba36241af975ec7336c421, type: 3}
-  image: {fileID: 164892082}
+  itemSprite: {fileID: 21300000, guid: a0d61634cd982d24bbf0d093bc46484a, type: 3}
+  currencySprite: {fileID: 21300000, guid: c2b3f9bdafba36241af975ec7336c421, type: 3}
+  itemImage: {fileID: 2019141979}
+  currencyImage: {fileID: 164892082}
   nameDisplay: {fileID: 2096772403}
   priceDisplay: {fileID: 1242495452}
+  priceObject: {fileID: 1242495450}
+  currencyObject: {fileID: 164892080}
   needPokeBolas: 0
   isSkin: 1
   isDinero: 0
+  givesPokeMasters: 0
   cantidad: 0
   isOferta: 0
 --- !u!114 &2019141979
@@ -28312,13 +28407,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Scarf
   itemValue: 7
-  sprite: {fileID: 21300000, guid: c2b3f9bdafba36241af975ec7336c421, type: 3}
-  image: {fileID: 1363772016}
+  itemSprite: {fileID: 21300000, guid: 0896f1e81203b474faa859d3826591c9, type: 3}
+  currencySprite: {fileID: 21300000, guid: c2b3f9bdafba36241af975ec7336c421, type: 3}
+  itemImage: {fileID: 2021010117}
+  currencyImage: {fileID: 1363772016}
   nameDisplay: {fileID: 1095402160}
   priceDisplay: {fileID: 1823760822}
+  priceObject: {fileID: 1823760820}
+  currencyObject: {fileID: 1363772014}
   needPokeBolas: 0
   isSkin: 0
   isDinero: 0
+  givesPokeMasters: 0
   cantidad: 0
   isOferta: 0
 --- !u!114 &2021010120
@@ -28639,10 +28739,10 @@ RectTransform:
   - {fileID: 1513727477}
   m_Father: {fileID: 936182405}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 119, y: -750}
+  m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &2037933298
 MonoBehaviour:
@@ -28729,13 +28829,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: 43.000 PokeBolas
   itemValue: 25
-  sprite: {fileID: -7868264388238900115, guid: ef4e5a91cb156c544bdff04250afcff9, type: 3}
-  image: {fileID: 1513727478}
+  itemSprite: {fileID: 8612886808959924395, guid: c795ed572c57a6643a62924acaa3c38b, type: 3}
+  currencySprite: {fileID: -7868264388238900115, guid: ef4e5a91cb156c544bdff04250afcff9, type: 3}
+  itemImage: {fileID: 2037933301}
+  currencyImage: {fileID: 1513727478}
   nameDisplay: {fileID: 563085436}
   priceDisplay: {fileID: 532566813}
+  priceObject: {fileID: 532566811}
+  currencyObject: {fileID: 1513727476}
   needPokeBolas: 0
   isSkin: 0
   isDinero: 1
+  givesPokeMasters: 0
   cantidad: 43000
   isOferta: 0
 --- !u!114 &2037933301
@@ -29755,7 +29860,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 195, y: -100}
+  m_AnchoredPosition: {x: 55, y: -100}
   m_SizeDelta: {x: 250, y: 100}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &2125382451
